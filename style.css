@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+.container {
+    max-width: 200px;
+    margin: auto;
+
+}
+
+h3 {
+    font-family: 'Grandstander', cursive;
+    color: white;
+    font-size: 0.5em;
+}
+
+h1 {
+    font-family: 'Grandstander', cursive;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+
+}
+
+p {
+    font-size: 0.5em;
+    color: white;
+
+    text-align: center;
+}
+
+.grid {
+    border: 1px solid black;
+    display: flex;
+    background: blanchedalmond;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 180px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+
+body {
+    zoom: 2.5;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 119, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+.button {
+    font-family: 'Grandstander', cursive;
+
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateX(-7px);
+}
+
+.button2 {
+    margin-left: 25px;
+    font-family: 'Grandstander', cursive;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button2:hover {
+    background-color: white;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transform: translateX(7px);
+}
+
+.ending-block {
+    background: url("thanos.png");
+
+    background-size: 100% 100%;
+}
+
+.starting-block {
+    background: url("man.png");
+
+    background-size: 100% 100%;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.l1,
+.l2,
+.l3 {
+    background-color: brown;
+}
+
+.l4,
+.l5,
+.lf2,
+.lf3 {
+    background-color: lightblue;
+}
+
+.c2,
+.c3 {
+    background-color: grey;
+}
+
+#result {
+    color: darkorange;
+    font-size: 1em;
+}
+
+.man {
+    background: url("man.png");
+
+    background-size: 100% 100%;
+}
