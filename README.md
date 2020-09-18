@@ -1,4 +1,4 @@
-# Are_you_invetable-
+# Are_you_invetable?
 
 Simple Js game 
 Instructions:
